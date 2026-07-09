@@ -23,7 +23,8 @@
                         <option value="">-- Selecciona una película --</option>
                         <option value="120">Aventura Espacial ($120 MXN)</option>
                         <option value="100">Mansión Embrujada ($100 MXN)</option>
-                        </select>
+                        <option value="90">Romance en París ($90 MXN)</option>
+                    </select>
                 </div>
 
                 <div class="campo">
@@ -37,7 +38,10 @@
                         <label>
                             <input type="radio" name="asiento" value="tradicional" checked> Tradicional (Sin costo extra)
                         </label>
-                        </div>
+                        <label>
+                            <input type="radio" name="asiento" value="vip"> VIP
+                        </label>
+                    </div>
                 </div>
 
                 <div class="campo">
@@ -49,7 +53,10 @@
                         <label>
                             <input type="checkbox" id="combo-hotdog" value="120"> Combo HotDog + Refresco ($120 MXN)
                         </label>
-                        </div>
+                        <label>
+                            <input type="checkbox" id="combo-pareja" value="250"> Combo Pareja (Palomitas grandes + 2 Refrescos + Dulce) ($250 MXN)
+                        </label>
+                    </div>
                 </div>
 
                 <button type="button" id="btn-calcular">Calcular Total</button>
